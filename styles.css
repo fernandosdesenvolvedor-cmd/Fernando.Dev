@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body{
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+   |padding-bottom:100px;
+    background-image: url("Img/fundo.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+     
+
+}
+
+
+.caixa-conteudo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caixa-texto{
+    width: 470px;
+}
+
+
+h2{
+
+    color:#fff;
+    font-weight: 600;
+    font-size: 60px;
+
+}
+
+.paragrafo{
+    color: #fff;
+    font-size: 16px;
+}
+
+.texto-starbucks{
+    color: rgb(32, 70, 32);
+    font-weight: 900;
+    font-size: 70px;
+}
+
+button{
+  
+    background-color: rgb(32, 70, 32);
+    color: #fff;
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: rgb(142, 231, 142);
+}
+
+.logo{
+    width: 80px;
+}
+
+.caixa-imagem{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 200px;
+}
+
+.imagem-copo{
+    width: 340px;    
+    
+}
+
+.caixa-menu{
+    display: flex;
+    justify-content: center;
+}
+
+.botao-menu{
+    width: 80px;
+    cursor: pointer;
+    margin: 10px;
+   
+}
+
+.circulo{
+    background-color: #017143;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+    z-index: -1;
+}
